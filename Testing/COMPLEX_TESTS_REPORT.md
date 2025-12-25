@@ -57,7 +57,7 @@ This test simulates a real-world scenario where a student is logged into their d
 
 ### Expected Results
 - ✅ User remains logged in after page refresh
- family - ✅ URL still contains "dashboard" OR
+- ✅ URL still contains "dashboard" OR
 - ✅ Page content still shows "student1" username
 - ✅ No redirect to login page occurs
 - ✅ Session cookies/tokens are preserved
@@ -257,16 +257,16 @@ def test_40_student_cannot_access_admin_features(self, browser):
 
 ### Performance
 - **TC-27 Execution Time:** ~8 seconds
- family - **TC-40 Execution Time:** ~10 seconds
- family - **Total Execution Time:** ~18 seconds
- family - **Browser Actions:** 15+ interactions
- family - **Page Loads:** 4 full page loads
+- **TC-40 Execution Time:** ~10 seconds
+- **Total Execution Time:** ~18 seconds
+- **Browser Actions:** 15+ interactions
+- **Page Loads:** 4 full page loads
 
 ### Reliability
 - **Success Rate:** 100% (2/2 passed)
- family - **Flakiness:** None observed
- family - **Retry Needed:** No
- family - **Stability:** Excellent
+- **Flakiness:** None observed
+- **Retry Needed:** No
+- **Stability:** Excellent
 
 ---
 

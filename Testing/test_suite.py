@@ -7,7 +7,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import time
 
-# Last synchronized: December 25, 2025 18:00
 BASE_URL = "http://localhost:5173"
 
 class TestFinanceSystem:
@@ -201,7 +200,6 @@ class TestFinanceSystem:
         browser.get(f"{BASE_URL}/finance/reports")
         time.sleep(1)
         body_text = browser.find_element(By.TAG_NAME, "body").text
-        
         assert "Report" in body_text or "Statistics" in body_text
         self.logout(browser)
 

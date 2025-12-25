@@ -199,9 +199,9 @@ Verify that an admin user can successfully log out from the finance dashboard.
 
 ### Expected Results
 - Admin is logged out
- family - Redirected to login page or home page
- family - URL contains "login" or ends with "/"
- family - Cannot access admin features without re-authentication
+- Redirected to login page or home page
+- URL contains "login" or ends with "/"
+- Cannot access admin features without re-authentication
 
 ### Test Data
 - **Username:** admin
@@ -416,9 +416,9 @@ Verify that admin can navigate to the student list page.
 
 ### Expected Results
 - URL contains "students"
- family - Student list page loads
- family - Table or list of students is visible
- family - No errors are displayed
+- Student list page loads
+- Table or list of students is visible
+- No errors are displayed
 
 ### Test Data
 - **Username:** admin
@@ -597,9 +597,9 @@ Verify that admin can access the bank reconciliation page.
 
 ### Expected Results
 - URL contains "bank"
- family - Bank reconciliation page loads
- family - Page displays bank transaction interface
- family - No errors are displayed
+- Bank reconciliation page loads
+- Page displays bank transaction interface
+- No errors are displayed
 
 ### Test Data
 - **Username:** admin
@@ -614,8 +614,8 @@ Verify that admin can access the bank reconciliation page.
 
 **Test ID:** test_16_admin_bank_data  
 **Priority:** Medium  
- family **Type:** Functional  
- family **Category:** Data Display
+**Type:** Functional  
+**Category:** Data Display
 
 ### Objective
 Verify that bank transaction data is displayed on the bank reconciliation page.
@@ -655,8 +655,8 @@ Verify that bank transaction data is displayed on the bank reconciliation page.
 
 **Test ID:** test_17_performance_login_load  
 **Priority:** Medium  
- family **Type:** Non-Functional - Performance  
- family **Category:** Performance Testing
+**Type:** Non-Functional - Performance  
+**Category:** Performance Testing
 
 ### Objective
 Verify that the application home page loads within acceptable time limits.
@@ -693,8 +693,8 @@ Verify that the application home page loads within acceptable time limits.
 
 **Test ID:** test_18_responsive_mobile  
 **Priority:** Medium  
- family **Type:** Non-Functional - UI/UX  
- family **Category:** Responsive Design
+**Type:** Non-Functional - UI/UX  
+**Category:** Responsive Design
 
 ### Objective
 Verify that the application renders correctly on mobile device viewports.
@@ -730,8 +730,8 @@ Verify that the application renders correctly on mobile device viewports.
 
 **Test ID:** test_19_security_protected_route  
 **Priority:** High  
- family **Type:** Non-Functional - Security  
- family **Category:** Access Control
+**Type:** Non-Functional - Security  
+**Category:** Access Control
 
 ### Objective
 Verify that unauthenticated users cannot access protected routes (student dashboard).
@@ -768,8 +768,8 @@ Verify that unauthenticated users cannot access protected routes (student dashbo
 
 **Test ID:** test_20_page_title  
 **Priority:** Low  
- family **Type:** Non-Functional - SEO  
- family **Category:** Search Engine Optimization
+**Type:** Non-Functional - SEO  
+**Category:** Search Engine Optimization
 
 ### Objective
 Verify that all pages have proper HTML title tags for SEO purposes.
